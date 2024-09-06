@@ -30,7 +30,7 @@
     let speech = new SpeechSynthesisUtterance();
     let voices = [];
 
-<h4>- Voice Loading</h4>
+<h4>Voice Loading</h4>
 <p>The `window.speechSynthesis.onvoiceschanged` event is triggered when the list of voices is updated. The app populates the dropdown with available voices using this function.</p>
 
     window.speechSynthesis.onvoiceschanged = () => {
